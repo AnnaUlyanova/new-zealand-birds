@@ -1,0 +1,16 @@
+<div class="home">
+
+  <p>
+     <a href="/bird">Look for some birds</a>
+   </p>
+   <p>
+     {{#each birdAllData}}
+    <p>
+      <a href="/bird">{{name}}</a>
+      <a href="/bird/{{id}}"><img src="{{img}}" alt="{{name}}" width="200px"></a>
+    </p>
+
+    {{/each}}
+ </p>
+
+  </div>
